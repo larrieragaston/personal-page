@@ -1,0 +1,14 @@
+{
+  "locale": "en-us",
+  "buttons": {
+    "login": "Log in",
+    "create_account": "Create Account"
+  },
+  "navbar": {
+    "about": "About",
+    "technologies": "Technologies",
+    "experience": "Work Experience",
+    "studies": "Studies",
+    "contact": "Contact"
+  }
+}

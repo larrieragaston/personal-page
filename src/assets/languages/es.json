@@ -1,0 +1,14 @@
+{
+  "locale": "en-ar",
+  "buttons": {
+    "login": "Log in",
+    "create_account": "Create Account"
+  },
+  "navbar": {
+    "about": "Sobre mí",
+    "technologies": "Tecnologías",
+    "experience": "Experiencia Laboral",
+    "studies": "Formación Académica",
+    "contact": "Contacto"
+  }
+}

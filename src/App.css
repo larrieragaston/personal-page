@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container {
   display: flex;
-  flex-direction: column;
+  height: 4em;
+  box-shadow: 0px 3px 6px #0000001A;
   align-items: center;
+  background: #FFFFFF;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: fixed;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-name {
+  justify-content: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-links {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.navbar-links li {
+  padding: 0.5em;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+}
+
+.navbar-links li a span:hover {
+  color: #016BAB;
+  font-weight: bold;
+  /* font: Bold 1em Montserrat; */
+}
+
+.navbar-links li a span {
+  font-size: 1em;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  /* opacity: 1; */
+}
+
+.sections {
+  padding-top: 8%;
+  width: 80%;
+  display: flex;
+  align-content: center;
+}
+
+.main-name {
+  font-size: 1em;
+  letter-spacing: 6.4px; 
+  font-family: 'Montserrat', sans-serif;
+  color: #016BAB;
+  opacity: 1;
+}
+
+#home {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  /* font: Light 2em Montserrat; */
+  letter-spacing: 0px;
+  color: #016BAB;
+  opacity: 1;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  /* font: Bold 24px/34px Montserrat; */
+  color: #3B3B3B;
+
+}
+
+.description {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  /* font: Regular 16px/22px Montserrat; */
+  letter-spacing: 0px;
+  color: #3B3B3B;
+  opacity: 1;
+}
+
+footer {
+  background-color: #356cab;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer .name {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  /* font: Regular 16px/39px Montserrat; */
+  letter-spacing: 6.4px;
+  color: #F3F3F3;
+  opacity: 1;
+  justify-content: flex-start;
+}
+
+footer .email {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  /* font: Regular 16px/22px Montserrat; */
+  letter-spacing: 0px;
+  color: #F3F3F3;
+  opacity: 1;
+  justify-content: flex-end;
 }
