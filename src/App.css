@@ -1,12 +1,90 @@
-.navbar-container {
+:root {
+  --color-fondo: #F3F3F3;
+  --color-negro_nav: #000000;
+  --color-negro: #3B3B3B;
+  --color-blanco: #FFFFFF;
+  --color-azulmain: #016BAB;
+  --color-azulhover: #3994e4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* FAMILIAS TIPOGRÁFICAS */
+
+
+body{
+  background-color: var(--color-fondo);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--color-negro);
+}
+
+.logo{
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-azulmain);
+  letter-spacing: 0.5em;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 300;
+  color: var(--color-azulmain);
+}
+
+h3{
+  font-size: 1.20em;
+  margin-right: 1em;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--color-negro);
+  margin-bottom: 1.5em;
+}
+
+.description {
+  font-size: 1em;
+  color: var(--color-negro);
+}
+
+.exp-date{
+  color: var(--color-azulmain);
+}
+
+.bajada{
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 0.6em;
+}
+
+
+
+/* EMPEZAMOS EL NAV */
+
+.navbar {
   display: flex;
   height: 4em;
-  box-shadow: 0px 3px 6px #0000001A;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   align-items: center;
-  background: #FFFFFF;
+  background-color: var(--color-blanco);
   justify-content: center;
   position: fixed;
   width: 100%;
+  z-index: 1;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
 }
 
 .navbar-name {
@@ -20,7 +98,9 @@
 }
 
 .navbar-links li {
-  padding: 0.5em;
+  padding: 0.7em;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-links li a {
@@ -28,92 +108,373 @@
 }
 
 .navbar-links li a span:hover {
-  color: #016BAB;
-  font-weight: bold;
+  color: var(--color-azulmain);
   /* font: Bold 1em Montserrat; */
 }
 
 .navbar-links li a span {
-  font-size: 1em;
-  color: #000000;
-  font-family: 'Montserrat', sans-serif;
+  color: var(--color-negro_nav);
   /* opacity: 1; */
 }
 
+
+/* TERMINAMOS EL NAV */
+/* EMPEZAMOS EL MAIN */
+
 .sections {
-  padding-top: 8%;
-  width: 80%;
+  padding-top: 4em;
+  width: 100%;
+  margin: auto;
   display: flex;
   align-content: center;
+  flex-direction: column;
 }
 
 .main-name {
   font-size: 1em;
   letter-spacing: 6.4px; 
-  font-family: 'Montserrat', sans-serif;
-  color: #016BAB;
+  color: var(--color-azulmain);
   opacity: 1;
+  font-weight: 400;
 }
 
 #home {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-}
-
-h1{
-  font-size: 3em;
-  font-weight: lighter;
-  font-family: 'Montserrat', sans-serif;
-  /* font: Light 2em Montserrat; */
-  letter-spacing: 0px;
-  color: #016BAB;
-  opacity: 1;
-}
-
-.subtitle {
-  font-size: 1.5em;
-  font-weight: bolder;
-  font-family: 'Montserrat', sans-serif;
-  /* font: Bold 24px/34px Montserrat; */
-  color: #3B3B3B;
-
-}
-
-.description {
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  /* font: Regular 16px/22px Montserrat; */
-  letter-spacing: 0px;
-  color: #3B3B3B;
-  opacity: 1;
-}
-
-footer {
-  background-color: #356cab;
+  width: 90%;
+  padding: 2em 0em;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  align-items: center;
+  min-height: calc(100vh - 4em);
+}
+
+.main-about{
+  transform: translatey(-0.7em);
+  width: 50%;
+}
+
+.image{
+  width: 40%;
+}
+
+.image img{
+  width: 100%;
+}
+
+.botonCv{
+  background-color: var(--color-fondo);
+  margin-top: 1.5em;
+  padding: 0.5em 0.75em;
+  border-radius: 0px;
+  font-size: 1em;
+  font-weight: 400;
+  border: 2px solid var(--color-azulmain);
+  color: var(--color-negro);
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.botonCv:hover{
+  transform: translateY(-0.2em);
+  box-shadow: 0.2em 0.2em 0.0em rgba(0, 0, 0, 0.2);
+}
+
+.arrow_download{
+  width: 12px;
+  margin-left: 0.5em;
+  transition: all 0.5s ease-out
+}
+
+.botonCv:hover .arrow_download{
+  transform: rotate(-90deg)
+}
+
+
+
+
+/* TERMINAMOS EL NAV */
+
+/* EMPIEZA knowledge */
+
+#knowledge{
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+.knowlege-img{
+  width: 2.5em;
+  margin-right: 1em;
+}
+
+.knowlege-each{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.knowledgeitems{
+  display: grid;
+  grid-gap: 2em;
+  grid-row-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
+}
+
+/* TERMINA knowledge */
+
+/* Empieza experience */
+
+#experience{
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+.exp-all{
+  width: 90%;
+  margin-left: 10%;
+}
+
+.exp-each{
+  position: relative;
+  width: 50%;
+  margin-top: -1em;
+}
+
+.left{
+  left: 0%;
+  padding-right: 2em;
+}
+
+.right{
+  left: 50%;
+  padding-left: 2em;
+}
+
+.firstelement{
+  margin-top:0;
+}
+
+.exp-title{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0.5em;
+  flex-wrap: wrap;
+}
+
+
+/* Termina EL experience */
+
+/* Empieza studies */
+
+#studies{
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+.studies-each{
+  position: relative;
+  width: 50%;
+  margin-top: 0.5em;
+}
+
+/* Termina studies */
+
+/* Empieza contact */
+
+#contact{
+  width: 90%;
+  margin: auto;
+  padding-top: 5em;
+  margin-bottom: 3em;
+  min-height: calc(100vh - 10em);
+}
+
+.contact_conteiner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_form{
+  margin-top: 1.5em;
+}
+
+.contact_left{
+  width: 46.4%;
+}
+
+.contact_form input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 1em 0.75em;
+  display: inline-block;
+  border: 0px solid;
+  border-radius: 0px;
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+  margin-bottom: 1em;
+  font-family: inherit;
+  font-size: 0.9em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.contact_form textarea{
+  height: 25vh;
+  min-height: 3.4em;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+.contact_form input[type=submit] {
+  padding: 0.5em 2em;
+  border-radius: 0px;
+  font-size: 1em;
+  font-weight: 400;
+  border: 0px solid var( --color-azulmain);
+  color: var( --color-blanco);
+  background-color: var(--color-azulmain);
+  font-family: inherit;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: all 0.3s ease-out;
+}
+
+.contact_form input[type=submit]:hover{
+  transform: translateY(-0.2em);
+  box-shadow: 0.2em 0.2em 0.0em rgba(0, 0, 0, 0.2);
+}
+
+/* **********Empieza contact_right************* */
+
+.contact_right{
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circlewhite{
+  width: 4em;
+  height: 4em;
+  border-radius: 4em;
+  background-color: var(--color-blanco);
+  position: absolute;
+  box-shadow: 0px 0px 7px rgba(145, 145, 145, 0.20);
+}
+
+.circlewhite img{
+  filter: grayscale(100%);
+}
+
+.circlewhite img:hover{
+  filter: grayscale(0%);
+}
+
+
+
+.circle_one{
+  left: -6%;
+  top: 22%;
+}
+
+.circle_two{
+  left: 90%;
+  top: 41%;
+}
+
+.circle_three{
+  left: 2%;
+  top: 76%;
+}
+
+.circle_four{
+  left: 94%;
+  top: 76%;
+}
+
+.contact_photo{
+  position: absolute;
+  width: 60%;
+}
+
+.contact_photo img{
+  width: 70%;
+}
+
+.contact_item{
+  display: flex;
+  margin: auto;
+  margin-top: 15%;
+}
+
+#contact .contact_gaston{
+  width: 100%;
+}
+
+.glove{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 15em;
+  height: 5em;
+  background-color: var(--color-blanco);
+  box-shadow: 0.2em 0.2em 0.4em rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
+  top: 3%;
+  left: 50%;
+  padding: 0.8em;
+}
+
+.glove::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  border-width: 15px 15px 0 15px;
+  border-style: solid;
+  border-color: var(--color-blanco) transparent;
+	filter: drop-shadow(0.2em 0.1em 0.1rem rgba(0, 0, 0, 0.05));
+}
+
+/* Termina contact */
+
+/* EMPIEZA EL FOOTER */
+
+
+footer {
+  background-color: var(--color-azulmain);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 6em;
 }
 
 footer .name {
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  /* font: Regular 16px/39px Montserrat; */
-  letter-spacing: 6.4px;
-  color: #F3F3F3;
-  opacity: 1;
-  justify-content: flex-start;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--color-blanco);
+  letter-spacing: 0.5em;
 }
 
 footer .email {
-  font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
-  /* font: Regular 16px/22px Montserrat; */
-  letter-spacing: 0px;
-  color: #F3F3F3;
-  opacity: 1;
+  color: var(--color-blanco);
   justify-content: flex-end;
 }
+
+/* TERMINAMOS EL FOOTER */
+
+

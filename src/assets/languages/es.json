@@ -5,10 +5,10 @@
     "create_account": "Create Account"
   },
   "navbar": {
-    "about": "Sobre mí",
+    "about": "Acerca",
     "technologies": "Tecnologías",
-    "experience": "Experiencia Laboral",
-    "studies": "Formación Académica",
+    "experience": "Experiencia",
+    "studies": "Formación",
     "contact": "Contacto"
   }
 }
