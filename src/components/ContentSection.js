@@ -7,7 +7,7 @@ import ContactSection from "./sections/ContactSection"
 
 export default function ContentSection() {
   return (
-    <div className="sections">
+    <div className="sections" id="about">
       <AboutSection />
       <KnowledgeSection />
       <ExperienceSection />

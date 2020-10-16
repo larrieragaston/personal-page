@@ -1,6 +1,9 @@
 import React from "react";
 import * as ContactPhoto from '../../assets/contact_photo.png';
-import KnoHtml from '../../assets/kno-html.svg';
+import ContWhats from '../../assets/cont-whatsapp.svg';
+import ContGmail from '../../assets/cont-gmail.svg';
+import ContLinkedin from '../../assets/cont-linkedin.svg';
+import ContGithub from '../../assets/cont-github.svg';
 
 export default function ContactSection() {
   return (
@@ -31,16 +34,16 @@ export default function ContactSection() {
           <div className="contact_photo">
               <img src={ContactPhoto} className="contact_gaston" alt="Photo dev guy"></img>
             <div className="circlewhite circle_one">
-              <a href="#" target="_blank"><img src={KnoHtml} alt="Icono HTML5" className="contact_item"></img></a>
+              <a href="#" target="_blank"><img src={ContLinkedin} alt="Icono HTML5" className="contact_item"></img></a>
             </div>
             <div className="circlewhite circle_two">
-              <a href="#" target="_blank"><img src={KnoHtml} alt="Icono HTML5" className="contact_item"></img></a>
+              <a href="#" target="_blank"><img src={ContGmail} alt="Icono HTML5" className="contact_item"></img></a>
             </div>
             <div className="circlewhite circle_three">
-             <a href="#" target="_blank"><img src={KnoHtml} alt="Icono HTML5" className="contact_item"></img></a>
+             <a href="#" target="_blank"><img src={ContGithub} alt="Icono HTML5" className="contact_item"></img></a>
             </div>
             <div className="circlewhite circle_four">
-              <a href="#" target="_blank"><img src={KnoHtml} alt="Icono HTML5" className="contact_item"></img></a>
+              <a href="#" target="_blank"><img src={ContWhats} alt="Icono HTML5" className="contact_item"></img></a>
             </div>
             <div className="glove">
               <p>¡Si lo preferís contáctame por los siguientes medios!</p>
