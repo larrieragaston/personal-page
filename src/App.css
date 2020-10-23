@@ -4,7 +4,6 @@
   --color-negro: #3B3B3B;
   --color-blanco: #FFFFFF;
   --color-azulmain: #016BAB;
-  --color-azulhover: #3994e4;
 }
 
 * {
@@ -104,12 +103,15 @@ h3{
   display: flex;
   list-style: none;
   justify-content: flex-end;
+  align-items: center;
+  padding: 0.2em;
 }
 
 .navbar-links li {
-  padding: 0.7em;
+  padding: 0.5em 0.7em;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .navbar-links li a {
@@ -129,6 +131,159 @@ h3{
 .nav_flag:hover .arrow_download{
   transform: rotate(-90deg)
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: var(--color-negro);
+}
+
+li a:hover {
+  color: var(--color-azulmain);
+}
+
+li:hover,
+li:focus-within {
+    cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  background-color: var(--color-blanco);
+  border-radius: 1em;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 10.8rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  right: 5%;
+  top: 1em;
+  margin-top: 1em;
+  display: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 0.3em 0em 0.25em 0em;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+.dropdown_flag{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.15em;
+}
+
+.dropdown_flag_img{
+  padding-right: 1em;
+}
+
+.boton_menu{
+  display: none;
+  background-color: var(--color-azulmain);
+  min-width: 10em;
+  color: var(--color-blanco);
+  border: none;
+  height: 30px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1em;
+  font-weight: 600;
+}
+
+.menuicon{
+  width: 1.2em;
+}
+
+.mostrar {
+  display: flex;
+}
+
+
+/* CAMBIAR ESTO PARA QUE SE VEA ACA */
+/* NAVBAR LINK EN FLEX FIJARSE EL MOSTRAR QUE ONDA */
+
+@media (max-width: 875px){
+  .navbar-links{
+    display: none;
+    min-width: 10em;
+    position: absolute;
+    align-items: center;
+    list-style: none;
+    justify-content: flex-end;
+    flex-direction: column;
+    right: 5%;
+    top: 3em;
+    background-color: var(--color-blanco);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .navbar-links ul {
+    display: block;
+  }
+  .navbar-links li {
+    display: block;
+  }
+  .boton_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px){
+  .navbar{
+    height: 5em;
+    padding: 0.75em 0em;
+    align-items: stretch;
+  }
+  .navbar-container{
+    flex-direction: column;
+  }
+  .logo{
+    letter-spacing: 0.25em;
+  }
+  .navbar-links{
+    top: 4.27em;
+    right: 50%;
+    margin-right: -5em;
+  }
+  ul li ul{
+    right: -72%;
+  }
+}
+
+
+
 /* TERMINAMOS EL NAV */
 /* EMPEZAMOS EL MAIN */
 
@@ -202,6 +357,11 @@ h3{
 .botonCv:hover{
   transform: translateY(-0.2em);
   box-shadow: 0.2em 0.2em 0.0em rgba(0, 0, 0, 0.2);
+}
+
+.botonCv:active{
+  transform: translateY(0em);
+  box-shadow: 0.2em 0.0em 0.0em rgba(0, 0, 0, 0.2);
 }
 
 .arrow_download{
@@ -424,6 +584,11 @@ h3{
   box-shadow: 0.2em 0.2em 0.0em rgba(0, 0, 0, 0.2);
 }
 
+.contact_form input[type=submit]:active{
+  transform: translateY(0em);
+  box-shadow: 0.2em 0.0em 0.0em rgba(0, 0, 0, 0.2);
+}
+
 /* **********Empieza contact_right************* */
 
 .contact_right{
@@ -549,7 +714,7 @@ h3{
   }
   
   .circle_four{
-    left: 97%;
+    left: 95%;
     top: 79%;
   }
 }
