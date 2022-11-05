@@ -1,14 +1,35 @@
 {
-  "locale": "en-ar",
-  "buttons": {
-    "login": "Log in",
-    "create_account": "Create Account"
-  },
-  "navbar": {
-    "about": "Acerca",
-    "technologies": "Tecnologías",
-    "experience": "Experiencia",
-    "studies": "Formación",
-    "contact": "Contacto"
-  }
+	"locale": "en-ar",
+	"navbar": {
+		"about": "Acerca",
+		"technologies": "Tecnologías",
+		"experience": "Experiencia",
+		"studies": "Formación",
+		"contact": "Contacto",
+		"spanish": "Español (ES)",
+		"english": "Inglés (EN)"
+	},
+	"about-section": {
+		"subtitle": "Desarrollador JS FullStack - Docente",
+		"description": "Soy un profesional entusiasta, con mucha experiencia en el rubro de IT, lleno de ganas de aprender y seguir creciendo. Me atraen mucho los proyectos desafiantes y me encanta involucrarme en todos los desarrollos de punta a punta, aportando ideas creativas que satisfagan las necesidades de todos los stakeholders.",
+		"button": "Descargar CV"
+	},
+	"knowledege-section": {
+		"title": "Tecnologías"
+	},
+	"experience-section": {
+		"title": "Experiencia Laboral"
+	},
+	"studies-section": {
+		"title": "Formación Académica"
+	},
+	"contact-section": {
+		"title": "Contacto",
+		"description": "Si tenés alguna duda, alguna idea interesante, algún proyecto o si necesitas una cotización para algún trabajo, este es el lugar para dejarme tu mensaje.",
+		"name-placeholder": "Nombre",
+		"email-placeholder": "E-mail",
+		"message-placeholder": "Mensaje",
+		"button": "Enviar",
+		"bubble-comment": "¡Si lo preferís contáctame por los siguientes medios!"
+	}
 }

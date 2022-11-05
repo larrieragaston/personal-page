@@ -1,14 +1,35 @@
 {
-  "locale": "en-us",
-  "buttons": {
-    "login": "Log in",
-    "create_account": "Create Account"
-  },
-  "navbar": {
-    "about": "About",
-    "technologies": "Technologies",
-    "experience": "Experience",
-    "studies": "Studies",
-    "contact": "Contact"
-  }
+	"locale": "en-us",
+	"navbar": {
+		"about": "About",
+		"technologies": "Technologies",
+		"experience": "Experience",
+		"studies": "Studies",
+		"contact": "Contact",
+		"spanish": "Spanish (SPA)",
+		"english": "English (ENG)"
+	},
+	"about-section": {
+		"subtitle": "FullStack JS Developer - Teacher",
+		"description": "I am an enthusiastic professional, with a vast experience in the IT field, eager to learn and keep growing. I am very motivated by challenging projects and I love getting involved in all developments from end to end, contributing to creative ideas that fill the needs of all stakeholders.",
+		"button": "Download Resume"
+	},
+	"knowledege-section": {
+		"title": "Technologies"
+	},
+	"experience-section": {
+		"title": "Work Experience"
+	},
+	"studies-section": {
+		"title": "Education"
+	},
+	"contact-section": {
+		"title": "Contact",
+		"description": "If you have any questions, an interesting idea, a project or if you need a quote for a job, this is the place to leave me your message.",
+		"name-placeholder": "Name",
+		"email-placeholder": "E-mail",
+		"message-placeholder": "Message",
+		"button": "Send",
+		"bubble-comment": "¡If you prefer, contact me by the following means!"
+	}
 }
