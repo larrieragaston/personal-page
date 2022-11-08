@@ -13,15 +13,11 @@ function AboutSection(props) {
 				<p className="description">{t("description")}</p>
 				<button type="button" href="#contact" className="botonCv">
 					{t("button")}
-					<img
-						src={Arrow}
-						alt="Icono de flecha"
-						className="arrow_download"
-					></img>
+					<img src={Arrow} alt="flecha" className="arrow_download"></img>
 				</button>
 			</div>
 			<div className="image">
-				<img src={profile} alt="Photo dev guy"></img>
+				<img src={profile} alt="guy"></img>
 			</div>
 		</section>
 	);
