@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/personal-page/static/css/main.b92af4ad.chunk.css",
+    "main.js": "/personal-page/static/js/main.1959323f.chunk.js",
+    "main.js.map": "/personal-page/static/js/main.1959323f.chunk.js.map",
+    "runtime-main.js": "/personal-page/static/js/runtime-main.244682c9.js",
+    "runtime-main.js.map": "/personal-page/static/js/runtime-main.244682c9.js.map",
+    "static/js/2.6877284a.chunk.js": "/personal-page/static/js/2.6877284a.chunk.js",
+    "static/js/2.6877284a.chunk.js.map": "/personal-page/static/js/2.6877284a.chunk.js.map",
+    "index.html": "/personal-page/index.html",
+    "precache-manifest.82fe36b36ecd4d4f3b0200b7bdbad846.js": "/personal-page/precache-manifest.82fe36b36ecd4d4f3b0200b7bdbad846.js",
+    "service-worker.js": "/personal-page/service-worker.js",
+    "static/css/main.b92af4ad.chunk.css.map": "/personal-page/static/css/main.b92af4ad.chunk.css.map",
+    "static/js/2.6877284a.chunk.js.LICENSE.txt": "/personal-page/static/js/2.6877284a.chunk.js.LICENSE.txt",
+    "static/media/arrow.svg": "/personal-page/static/media/arrow.cbb60912.svg",
+    "static/media/arrownav.svg": "/personal-page/static/media/arrownav.a5b1a6e5.svg",
+    "static/media/cont-github.svg": "/personal-page/static/media/cont-github.e420f55b.svg",
+    "static/media/cont-gmail.svg": "/personal-page/static/media/cont-gmail.ec987c36.svg",
+    "static/media/cont-linkedin.svg": "/personal-page/static/media/cont-linkedin.25476b2f.svg",
+    "static/media/contact_photo.png": "/personal-page/static/media/contact_photo.d02a9058.png",
+    "static/media/foto_gaston.png": "/personal-page/static/media/foto_gaston.d4cbf0d9.png",
+    "static/media/kno-angular.svg": "/personal-page/static/media/kno-angular.2213f004.svg",
+    "static/media/kno-css.svg": "/personal-page/static/media/kno-css.e8a05335.svg",
+    "static/media/kno-git.svg": "/personal-page/static/media/kno-git.4f217941.svg",
+    "static/media/kno-html.svg": "/personal-page/static/media/kno-html.84745960.svg",
+    "static/media/kno-ionic.svg": "/personal-page/static/media/kno-ionic.ec66dde1.svg",
+    "static/media/kno-javascript.svg": "/personal-page/static/media/kno-javascript.0aac9df5.svg",
+    "static/media/kno-js.svg": "/personal-page/static/media/kno-js.9ccb3571.svg",
+    "static/media/kno-node.svg": "/personal-page/static/media/kno-node.cfba1a69.svg",
+    "static/media/kno-objetivec.svg": "/personal-page/static/media/kno-objetivec.2961fb37.svg",
+    "static/media/kno-react.svg": "/personal-page/static/media/kno-react.3a58b4e1.svg",
+    "static/media/kno-swift.svg": "/personal-page/static/media/kno-swift.cdd8e4fd.svg",
+    "static/media/menu_icon.svg": "/personal-page/static/media/menu_icon.c9289695.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.244682c9.js",
+    "static/js/2.6877284a.chunk.js",
+    "static/css/main.b92af4ad.chunk.css",
+    "static/js/main.1959323f.chunk.js"
+  ]
+}
