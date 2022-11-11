@@ -1,15 +1,15 @@
 import React from "react";
-import KnoAngular from "../../assets/kno-angular.svg";
+// import KnoVue from "../../assets/kno-vue.svg";
 import KnoCss from "../../assets/kno-css.svg";
 import KnoGit from "../../assets/kno-git.svg";
 import KnoHtml from "../../assets/kno-html.svg";
-import KnoIonic from "../../assets/kno-ionic.svg";
-import KnoJavascript from "../../assets/kno-javascript.svg";
+// import KnoMongo from "../../assets/kno-mongo.svg";
 import KnoJs from "../../assets/kno-js.svg";
 import KnoNode from "../../assets/kno-node.svg";
-import KnoObjetivec from "../../assets/kno-objetivec.svg";
+// import KnoAWS from "../../assets/kno-aws.svg";
+// import KnoHeroku from "../../assets/kno-heroku.svg";
 import KnoReact from "../../assets/kno-react.svg";
-import KnoSwift from "../../assets/kno-swift.svg";
+// import KnoExpress from "../../assets/kno-express.svg";
 import { translate } from "react-translate";
 
 function KnowledgeSection(props) {
@@ -19,68 +19,76 @@ function KnowledgeSection(props) {
 			<h2 className="subtitle">{t("title")}</h2>
 			<div className="knowledgeitems">
 				<div className="knowlege-each">
-					<img
-						src={KnoJavascript}
-						alt="Icono HTML5"
-						className="knowlege-img"
-					></img>
+					<img src={KnoJs} alt="IconJS" className="knowlege-img"></img>
 					<p className="knolege-tex">Javascript</p>
 				</div>
 				<div className="knowlege-each">
-					<img src={KnoNode} alt="Icono HTML5" className="knowlege-img"></img>
+					<img src={KnoNode} alt="IconNode" className="knowlege-img"></img>
 					<p className="knolege-tex">Node JS</p>
 				</div>
 				<div className="knowlege-each">
-					<img src={KnoReact} alt="Icono HTML5" className="knowlege-img"></img>
+					<img
+						src={KnoReact} //TODO: Change icon to KnoExpress
+						alt="IconoExpress"
+						className="knowlege-img"
+					></img>
+					<p className="knolege-tex">Express</p>
+				</div>
+				<div className="knowlege-each">
+					<img src={KnoReact} alt="IconoReact" className="knowlege-img"></img>
+					<p className="knolege-tex">React JS</p>
+				</div>
+				<div className="knowlege-each">
+					<img src={KnoHtml} alt="IconoHTML5" className="knowlege-img"></img>
+					<p className="knolege-tex">Html 5</p>
+				</div>
+				<div className="knowlege-each">
+					<img src={KnoCss} alt="IconoCSS3" className="knowlege-img"></img>
+					<p className="knolege-tex">CSS 3</p>
+				</div>
+				<div className="knowlege-each">
+					<img src={KnoReact} alt="IconReact" className="knowlege-img"></img>
 					<p className="knolege-tex">React Native</p>
 				</div>
 				<div className="knowlege-each">
 					<img
-						src={KnoAngular}
-						alt="Icono HTML5"
+						src={KnoReact} //TODO: Change icon too KnoVue
+						alt="IconoVUE"
 						className="knowlege-img"
 					></img>
-					<p className="knolege-tex">Angular JS</p>
-				</div>
-				<div className="knowlege-each">
-					<img src={KnoReact} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">React</p>
-				</div>
-				<div className="knowlege-each">
-					<img src={KnoHtml} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">Html 5</p>
-				</div>
-				<div className="knowlege-each">
-					<img src={KnoCss} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">CSS</p>
+					<p className="knolege-tex">VUE</p>
 				</div>
 				<div className="knowlege-each">
 					<img
-						src={KnoObjetivec}
-						alt="Icono HTML5"
+						src={KnoReact} //TODO: Change icon to KnoMongo
+						alt="IconoMongoDB"
 						className="knowlege-img"
 					></img>
-					<p className="knolege-tex">Objetive C</p>
+					<p className="knolege-tex">Mongo DB</p>
 				</div>
 				<div className="knowlege-each">
-					<img src={KnoGit} alt="Icono HTML5" className="knowlege-img"></img>
+					<img src={KnoGit} alt="IconoGIT" className="knowlege-img"></img>
 					<p className="knolege-tex">Git</p>
 				</div>
 				<div className="knowlege-each">
-					<img src={KnoSwift} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">Swift</p>
+					<img
+						src={KnoReact} //TODO: Change icon to KnoAWS
+						alt="IconoAWS"
+						className="knowlege-img"
+					></img>
+					<p className="knolege-tex">AWS</p>
 				</div>
 				<div className="knowlege-each">
-					<img src={KnoJs} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">Java</p>
-				</div>
-				<div className="knowlege-each">
-					<img src={KnoIonic} alt="Icono HTML5" className="knowlege-img"></img>
-					<p className="knolege-tex">Ionic Framework</p>
+					<img
+						src={KnoReact} //TODO: Chaange icon to KnoHeroku
+						alt="IconoHeroku"
+						className="knowlege-img"
+					></img>
+					<p className="knolege-tex">Heroku</p>
 				</div>
 			</div>
 		</section>
 	);
 }
 
-export default translate("contact-section")(KnowledgeSection);
+export default translate("knowledege-section")(KnowledgeSection);
