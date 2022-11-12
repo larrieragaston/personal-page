@@ -45,7 +45,22 @@
 		"wxp6_description": "Management of Oracle 12c Databases, through the use of the PL/SQL language. Statistical analysis and projection of clients, preparation of reports for other internal areas of the bank. Programming of packages, batch processes and functions used in the sector. Optimization of different queries and processes. Technologies/Frameworks: PL/SQL, SAS Visual Analytics, OBIEE Oracle, Office."
 	},
 	"studies-section": {
-		"title": "Education"
+		"title": "Education",
+		"std1_title": "IT Engineering",
+		"std1_period": "Present (2 remaining subjects)",
+		"std1_place": "Universidad Argentina de la Empresa (UADE)",
+		"std2_title": "University Technician in Software Development",
+		"std2_period": "2020",
+		"std2_place": "Universidad Argentina de la Empresa (UADE)",
+		"std3_title": "Computer Analyst",
+		"std3_period": "2019",
+		"std3_place": "Universidad Argentina de la Empresa (UADE)",
+		"std4_title": "IT Professor",
+		"std4_period": "2018",
+		"std4_place": "Universidad Tecnológica Nacional (UTN)",
+		"std5_title": "IT Technician",
+		"std5_period": "2014",
+		"std5_place": "Universidad Tecnológica Nacional (UTN)"
 	},
 	"contact-section": {
 		"title": "Contact",

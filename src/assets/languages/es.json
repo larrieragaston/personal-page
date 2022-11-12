@@ -45,7 +45,22 @@
 		"wxp6_description": "Manejo de bases de Datos Oracle 12c, mediante el uso del lenguaje PL/SQL. Análisis estadístico y proyección de clientes, realización de informes para otras áreas internas del banco. Programación de paquetes, procesos batch y funciones utilizadas en el sector. Optimización de distintas consultas y procesos. Utilización de SAS Visual Analytics como herramienta de BI para análisis de fuentes nuevas, manipulación de datos y construcción de informes. Lenguajes/Frameworks: PL/SQL, SAS Visual Analytics, OBIEE Oracle, Office."
 	},
 	"studies-section": {
-		"title": "Formación Académica"
+		"title": "Formación Académica",
+		"std1_title": "Ingeniería Informática",
+		"std1_period": "Actualidad (5to año en curso)",
+		"std1_place": "Universidad Argentina de la Empresa (UADE)",
+		"std2_title": "Tecnico Univ. en Desarrollo de Software",
+		"std2_period": "2020",
+		"std2_place": "Universidad Argentina de la Empresa (UADE)",
+		"std3_title": "Analista en Informática",
+		"std3_period": "2019",
+		"std3_place": "Universidad Argentina de la Empresa (UADE)",
+		"std4_title": "Profesor en Disciplinas Industriales Esp. Informática",
+		"std4_period": "2018",
+		"std4_place": "Universidad Tecnológica Nacional (UTN)",
+		"std5_title": "Tecnicatura Superior en Informática e Informática Aplicada",
+		"std5_period": "2014",
+		"std5_place": "Universidad Tecnológica Nacional (UTN)"
 	},
 	"contact-section": {
 		"title": "Contacto",
