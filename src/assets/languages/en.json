@@ -18,7 +18,31 @@
 		"title": "Technologies"
 	},
 	"experience-section": {
-		"title": "Work Experience"
+		"title": "Work Experience",
+		"wxp1_place": "Gizmedic",
+		"wxp1_period": "Dec 2021 to present",
+		"wxp1_position": "Full-Stack Software Developer",
+		"wxp1_description": "Design, development and implementation of new features of existing systems. API Rest, Web and App maintenance. Accompaniment to other developers. Technologies/Frameworks: JavaScript, React, React Native, NodeJs, Express, MongoDB, Vue, Heroku, AWS.",
+		"wxp2_place": "UTN INSPT",
+		"wxp2_period": "Aug 2019 to present",
+		"wxp2_position": "Teacher - Programming III",
+		"wxp2_description": "Functional programming paradigm. Technologies/Frameworks: JS, React, Express, Nodejs, MongoDB, Clojure, FP.",
+		"wxp3_place": "Quares S.R.L.",
+		"wxp3_period": "Aug 2021 - Dec 2021",
+		"wxp3_position": "Software Developer Sr",
+		"wxp3_description": "Design, development and implementation of new features of existing systems. Accompaniment to other developers. Technologies/Frameworks: API REST, Entity Framework 6, SQL Server, GIT, IIS, Linq, Github, Azure Devops.",
+		"wxp4_place": "Tiarg S.A",
+		"wxp4_period": "Jan 2021 - Aug 2021",
+		"wxp4_position": "Software Developer Ssr",
+		"wxp4_description": "Development and implementation of new web system features using agile methodologies, bugfixing and testing in different environments and commissioning. Production of a new product for a client in Spain. Technologies/Frameworks: .NET, .NET Core, API REST, Dependency Injection, Repository pattern, Entity Framework 6, SQL Server, GIT, IIS, Linq, Gitlab, Jira.",
+		"wxp5_place": "Wormhole S.A.",
+		"wxp5_period": "Jun 2018 - Jul 2020",
+		"wxp5_position": "Software Developer",
+		"wxp5_description": "Design, development and implementation of web-oriented systems. Analysis and start-up of new functionalities. Maintenance and bug fixing of existing applications. Technologies/Frameworks: .NET, .NET Core, C#, MVC, ASP.NET, Razor, SQL Server, HTML 5, Javascript, Jquery, CSS, Redis, Linq, Bootstrap.",
+		"wxp6_place": "Santander Rio S.A.",
+		"wxp6_period": "Apr 2015 - May 2018",
+		"wxp6_position": "PL/SQL Analyst/Developer",
+		"wxp6_description": "Management of Oracle 12c Databases, through the use of the PL/SQL language. Statistical analysis and projection of clients, preparation of reports for other internal areas of the bank. Programming of packages, batch processes and functions used in the sector. Optimization of different queries and processes. Technologies/Frameworks: PL/SQL, SAS Visual Analytics, OBIEE Oracle, Office."
 	},
 	"studies-section": {
 		"title": "Education"
