@@ -36,9 +36,19 @@ function NavBar(props) {
 							<span>{t("experience")}</span>
 						</a>
 					</li>
+					{/* <li>
+						<a href="#projects">
+							<span>{t("projects")}</span>
+						</a>
+					</li> */}
 					<li>
 						<a href="#studies">
 							<span>{t("studies")}</span>
+						</a>
+					</li>
+					<li>
+						<a href="#courses">
+							<span>{t("courses")}</span>
 						</a>
 					</li>
 					<li>

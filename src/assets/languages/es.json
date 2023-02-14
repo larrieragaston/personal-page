@@ -4,7 +4,9 @@
 		"about": "Sobre mi",
 		"technologies": "Tecnologías",
 		"experience": "Experiencia",
+		"projects": "Proyectos",
 		"studies": "Formación",
+		"courses": "Cursos",
 		"contact": "Contacto",
 		"spanish": "Español (ES)",
 		"english": "Inglés (EN)"
@@ -12,7 +14,7 @@
 	"about-section": {
 		"subtitle": "Desarrollador JS FullStack - Docente",
 		"description": "Soy un profesional entusiasta, con mucha experiencia en el rubro de IT, lleno de ganas de aprender y seguir creciendo. Me atraen mucho los proyectos desafiantes y me encanta involucrarme en todos los desarrollos de punta a punta, aportando ideas creativas que satisfagan las necesidades de todos los stakeholders.",
-		"button": "Descargar CV"
+		"make_contact": "Contactarme"
 	},
 	"knowledege-section": {
 		"title": "Tecnologías"
@@ -44,6 +46,9 @@
 		"wxp6_position": "Analista/Desarrollador PL/SQL",
 		"wxp6_description": "Manejo de bases de Datos Oracle 12c, mediante el uso del lenguaje PL/SQL. Análisis estadístico y proyección de clientes, realización de informes para otras áreas internas del banco. Programación de paquetes, procesos batch y funciones utilizadas en el sector. Optimización de distintas consultas y procesos. Utilización de SAS Visual Analytics como herramienta de BI para análisis de fuentes nuevas, manipulación de datos y construcción de informes. Lenguajes/Frameworks: PL/SQL, SAS Visual Analytics, OBIEE Oracle, Office."
 	},
+	"projects-section": {
+		"title": "Proyectos"
+	},
 	"studies-section": {
 		"title": "Formación Académica",
 		"std1_title": "Ingeniería Informática",
@@ -62,13 +67,16 @@
 		"std5_period": "2014",
 		"std5_place": "Universidad Tecnológica Nacional (UTN)"
 	},
+	"courses-section": {
+		"title": "Cursos"
+	},
 	"contact-section": {
 		"title": "Contacto",
-		"description": "Si tenés alguna duda, alguna idea interesante, algún proyecto o si necesitas una cotización para algún trabajo, este es el lugar para dejarme tu mensaje.",
+		"description": "Si necesitas una cotización o si tenés alguna idea/proyecto que precises ayuda, mandame un mensaje.",
 		"name-placeholder": "Nombre",
 		"email-placeholder": "E-mail",
 		"message-placeholder": "Mensaje",
 		"button": "Enviar",
-		"bubble-comment": "¡Si lo preferís contáctame por los siguientes medios!"
+		"bubble-comment": "¡También podes contáctarme por los siguientes medios!"
 	}
 }

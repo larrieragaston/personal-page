@@ -4,7 +4,9 @@
 		"about": "About me",
 		"technologies": "Technologies",
 		"experience": "Experience",
+		"projects": "projects",
 		"studies": "Studies",
+		"courses": "Courses",
 		"contact": "Contact",
 		"spanish": "Spanish (SPA)",
 		"english": "English (ENG)"
@@ -12,7 +14,7 @@
 	"about-section": {
 		"subtitle": "FullStack JS Developer - Teacher",
 		"description": "I am an enthusiastic professional, with a vast experience in the IT field, eager to learn and keep growing. I am very motivated by challenging projects and I love getting involved in all developments from end to end, contributing to creative ideas that fill the needs of all stakeholders.",
-		"button": "Download Resume"
+		"make_contact": "Contact me"
 	},
 	"knowledege-section": {
 		"title": "Technologies"
@@ -44,6 +46,9 @@
 		"wxp6_position": "PL/SQL Analyst/Developer",
 		"wxp6_description": "Management of Oracle 12c Databases, through the use of the PL/SQL language. Statistical analysis and projection of clients, preparation of reports for other internal areas of the bank. Programming of packages, batch processes and functions used in the sector. Optimization of different queries and processes. Technologies/Frameworks: PL/SQL, SAS Visual Analytics, OBIEE Oracle, Office."
 	},
+	"projects-section": {
+		"title": "Projects"
+	},
 	"studies-section": {
 		"title": "Education",
 		"std1_title": "IT Engineering",
@@ -62,9 +67,12 @@
 		"std5_period": "2014",
 		"std5_place": "Universidad Tecnológica Nacional (UTN)"
 	},
+	"courses-section": {
+		"title": "Courses"
+	},
 	"contact-section": {
 		"title": "Contact",
-		"description": "If you have any questions, an interesting idea, a project or if you need a quote for a job, this is the place to leave me your message.",
+		"description": "If you need a quote for a job, or you have an idea/project, this is the place to leave me a message.",
 		"name-placeholder": "Name",
 		"email-placeholder": "E-mail",
 		"message-placeholder": "Message",

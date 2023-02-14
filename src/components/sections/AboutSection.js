@@ -12,8 +12,8 @@ function AboutSection(props) {
 				<h2 className="subtitle">{t("subtitle")}</h2>
 				<p className="description">{t("description")}</p>
 				<button type="button" href="#contact" className="botonCv">
-					{t("button")}
-					<img src={Arrow} alt="flecha" className="arrow_download"></img>
+					{t("make_contact")}
+					{/* <img src={Arrow} alt="flecha" className="arrow_download"></img> */}
 				</button>
 			</div>
 			<div className="image">
