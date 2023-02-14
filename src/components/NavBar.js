@@ -8,7 +8,7 @@ import { LanguageContext } from "../context/langagueContext";
 
 function NavBar(props) {
 	const { t } = props;
-	const { setLanguage } = useContext(LanguageContext);
+	const { language, setLanguage } = useContext(LanguageContext);
 	return (
 		<nav className="navbar">
 			<div className="navbar-container">
@@ -57,13 +57,15 @@ function NavBar(props) {
 						</a>
 					</li>
 					<li className="nav_flag">
-						<img src={ArgFlag} alt="flag"></img>
+						<img src={language == "es" ? ArgFlag : UKFlag} alt="flag"></img>
 						<img src={ArrowNav} alt="flecha" className="arrow_download"></img>
 						<ul className="dropdown">
 							<li>
 								<a
 									// href="#"
-									className="dropdown_flag"
+									className={`dropdown_flag ${
+										language == "es" ? "isSelected" : ""
+									}`}
 									onClick={() => {
 										setLanguage("es");
 									}}
@@ -79,7 +81,9 @@ function NavBar(props) {
 							<li>
 								<a
 									// href="#"
-									className="dropdown_flag"
+									className={`dropdown_flag ${
+										language == "es" ? "" : "isSelected"
+									}`}
 									onClick={() => {
 										setLanguage("en");
 									}}
