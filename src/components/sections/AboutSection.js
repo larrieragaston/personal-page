@@ -11,7 +11,7 @@ function AboutSection(props) {
 	return (
 		<section id="home">
 			<div className="main-about">
-				<h1>Gaston A. Larrierra</h1>
+				<h1>Gaston A. Larriera</h1>
 				<h2 className="subtitle">{t("subtitle")}</h2>
 				<p className="description">{t("description")}</p>
 				<button
