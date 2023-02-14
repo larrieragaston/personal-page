@@ -77,6 +77,8 @@
 		"email-placeholder": "E-mail",
 		"message-placeholder": "Message",
 		"button": "Send",
-		"bubble-comment": "¡If you prefer, contact me by the following means!"
+		"bubble-comment": "¡If you prefer, contact me by the following means!",
+		"email-sent-success": "Message Sent Successfully",
+		"email-sent-failed": "There was an error sending the message. Please, try again later"
 	}
 }

@@ -77,6 +77,8 @@
 		"email-placeholder": "E-mail",
 		"message-placeholder": "Mensaje",
 		"button": "Enviar",
-		"bubble-comment": "¡También podes contáctarme por los siguientes medios!"
+		"bubble-comment": "¡También podes contáctarme por los siguientes medios!",
+		"email-sent-success": "Menaje enviado correctamente",
+		"email-sent-failed": "Error al enviar el mensaje. Por favor, intente mas tarde"
 	}
 }
