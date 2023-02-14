@@ -100,7 +100,6 @@ function NavBar(props) {
 					</li>
 				</ul>
 			</div>
-			<script></script>
 		</nav>
 	);
 }
