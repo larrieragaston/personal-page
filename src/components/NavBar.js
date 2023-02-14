@@ -57,14 +57,14 @@ function NavBar(props) {
 						</a>
 					</li>
 					<li className="nav_flag">
-						<img src={language == "es" ? ArgFlag : UKFlag} alt="flag"></img>
+						<img src={language === "es" ? ArgFlag : UKFlag} alt="flag"></img>
 						<img src={ArrowNav} alt="flecha" className="arrow_download"></img>
 						<ul className="dropdown">
 							<li>
+								{/* eslint-disable-next-line */}
 								<a
-									// href="#"
 									className={`dropdown_flag ${
-										language == "es" ? "isSelected" : ""
+										language === "es" ? "isSelected" : ""
 									}`}
 									onClick={() => {
 										setLanguage("es");
@@ -79,10 +79,10 @@ function NavBar(props) {
 								</a>
 							</li>
 							<li>
+								{/* eslint-disable-next-line */}
 								<a
-									// href="#"
 									className={`dropdown_flag ${
-										language == "es" ? "" : "isSelected"
+										language === "es" ? "" : "isSelected"
 									}`}
 									onClick={() => {
 										setLanguage("en");

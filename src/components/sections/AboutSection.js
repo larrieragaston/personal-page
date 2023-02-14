@@ -1,5 +1,4 @@
 import React from "react";
-import Arrow from "../../assets/arrow.svg";
 import * as profile from "../../assets/foto_gaston.png";
 import { translate } from "react-translate";
 
