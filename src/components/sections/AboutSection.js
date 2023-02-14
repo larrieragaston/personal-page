@@ -4,6 +4,10 @@ import { translate } from "react-translate";
 
 function AboutSection(props) {
 	const { t } = props;
+	const navigateToContactSection = () => {
+		window.location = "#contact";
+	};
+
 	return (
 		<section id="home">
 			<div className="main-about">
@@ -12,7 +16,7 @@ function AboutSection(props) {
 				<p className="description">{t("description")}</p>
 				<button
 					type="button"
-					onclick="location.href='#contact'"
+					onClick={() => navigateToContactSection()}
 					className="botonCv"
 				>
 					{t("make_contact")}
