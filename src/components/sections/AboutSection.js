@@ -1,19 +1,30 @@
 import React from "react";
-import Arrow from "../../assets/arrow.svg";
 import * as profile from "../../assets/foto_gaston.png";
 import { translate } from "react-translate";
 
 function AboutSection(props) {
 	const { t } = props;
+	const navigateToContactSection = () => {
+		window.location = "#contact";
+	};
+
 	return (
 		<section id="home">
 			<div className="main-about">
-				<h1>Gaston A. Larrierra</h1>
+				<h1>Gaston A. Larriera</h1>
 				<h2 className="subtitle">{t("subtitle")}</h2>
-				<p className="description">{t("description")}</p>
-				<button type="button" href="#contact" className="botonCv">
-					{t("button")}
-					<img src={Arrow} alt="flecha" className="arrow_download"></img>
+				<p className="description">{t("description1")}</p>
+				<br />
+				<p className="description">{t("description2")}</p>
+				<br />
+				<p className="description">{t("description3")}</p>
+				<br />
+				<button
+					type="button"
+					onClick={() => navigateToContactSection()}
+					className="botonCv"
+				>
+					{t("make_contact")}
 				</button>
 			</div>
 			<div className="image">

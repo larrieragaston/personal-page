@@ -8,7 +8,7 @@ import { LanguageContext } from "../context/langagueContext";
 
 function NavBar(props) {
 	const { t } = props;
-	const { setLanguage } = useContext(LanguageContext);
+	const { language, setLanguage } = useContext(LanguageContext);
 	return (
 		<nav className="navbar">
 			<div className="navbar-container">
@@ -36,9 +36,19 @@ function NavBar(props) {
 							<span>{t("experience")}</span>
 						</a>
 					</li>
+					{/* <li>
+						<a href="#projects">
+							<span>{t("projects")}</span>
+						</a>
+					</li> */}
 					<li>
 						<a href="#studies">
 							<span>{t("studies")}</span>
+						</a>
+					</li>
+					<li>
+						<a href="#courses">
+							<span>{t("courses")}</span>
 						</a>
 					</li>
 					<li>
@@ -47,13 +57,15 @@ function NavBar(props) {
 						</a>
 					</li>
 					<li className="nav_flag">
-						<img src={ArgFlag} alt="flag"></img>
+						<img src={language === "es" ? ArgFlag : UKFlag} alt="flag"></img>
 						<img src={ArrowNav} alt="flecha" className="arrow_download"></img>
 						<ul className="dropdown">
 							<li>
+								{/* eslint-disable-next-line */}
 								<a
-									// href="#"
-									className="dropdown_flag"
+									className={`dropdown_flag ${
+										language === "es" ? "isSelected" : ""
+									}`}
 									onClick={() => {
 										setLanguage("es");
 									}}
@@ -67,9 +79,11 @@ function NavBar(props) {
 								</a>
 							</li>
 							<li>
+								{/* eslint-disable-next-line */}
 								<a
-									// href="#"
-									className="dropdown_flag"
+									className={`dropdown_flag ${
+										language === "es" ? "" : "isSelected"
+									}`}
 									onClick={() => {
 										setLanguage("en");
 									}}
@@ -86,7 +100,6 @@ function NavBar(props) {
 					</li>
 				</ul>
 			</div>
-			<script></script>
 		</nav>
 	);
 }

@@ -15,7 +15,6 @@
 
 /* FAMILIAS TIPOGRÁFICAS */
 
-
 body{
   background-color: var(--color-fondo);
   font-family: 'Montserrat', sans-serif;
@@ -71,8 +70,6 @@ h3{
   font-weight: 600;
   margin-bottom: 0.6em;
 }
-
-
 
 /* EMPEZAMOS EL NAV */
 
@@ -192,7 +189,7 @@ ul li ul:focus {
 }
 
 ul li ul li {
-    clear: both;
+  clear: both;
   width: 100%;
 }
 
@@ -205,6 +202,15 @@ ul li ul li {
 
 .dropdown_flag_img{
   padding-right: 1em;
+}
+
+.isSelected {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.isSelected:hover {
+  color: var(--color-negro);
 }
 
 .boton_menu{
@@ -228,7 +234,6 @@ ul li ul li {
 .mostrar {
   display: flex;
 }
-
 
 /* CAMBIAR ESTO PARA QUE SE VEA ACA */
 /* NAVBAR LINK EN FLEX FIJARSE EL MOSTRAR QUE ONDA */
@@ -282,8 +287,6 @@ ul li ul li {
   }
 }
 
-
-
 /* TERMINAMOS EL NAV */
 /* EMPEZAMOS EL MAIN */
 
@@ -319,9 +322,6 @@ ul li ul li {
   width: 50%;
 }
 
-
-
-
 .image{
   width: 40%;
   display: flex;
@@ -338,7 +338,6 @@ ul li ul li {
     width: 100%;
   }
 }
-
 
 .botonCv{
   background-color: var(--color-fondo);
@@ -374,7 +373,6 @@ ul li ul li {
   transform: rotate(-90deg)
 }
 
-
 @media (max-width: 768px){
   #home{
       flex-direction: column;
@@ -393,7 +391,6 @@ ul li ul li {
 }
 
 /* TERMINAMOS EL NAV */
-
 /* EMPIEZA knowledge */
 
 #knowledge{
@@ -434,7 +431,6 @@ ul li ul li {
 }
 
 /* TERMINA knowledge */
-
 /* Empieza experience */
 
 #experience{
@@ -488,7 +484,33 @@ ul li ul li {
 }
 
 /* Termina EL experience */
+/* Empieza projects */
 
+#projects{
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+.projects-each{
+  position: relative;
+  width: 50%;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 768px){
+  .projects-each{
+    width: 100%;
+    margin-top: 2.5em;
+  }
+  .right{
+    left: 0%;
+    padding-left: 0em;
+  }
+}
+
+/* Termina projects */
 /* Empieza studies */
 
 #studies{
@@ -516,7 +538,33 @@ ul li ul li {
 }
 
 /* Termina studies */
+/* Empieza courses */
 
+#courses{
+  width: 90%;
+  margin: auto;
+  padding-top: 6em;
+  margin-bottom: 2em;
+}
+
+.courses-each{
+  position: relative;
+  width: 50%;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 768px){
+  .courses-each{
+    width: 100%;
+    margin-top: 2.5em;
+  }
+  .right{
+    left: 0%;
+    padding-left: 0em;
+  }
+}
+
+/* Termina courses */
 /* Empieza contact */
 
 #contact{
@@ -616,8 +664,6 @@ ul li ul li {
   filter: grayscale(0%);
 }
 
-
-
 .circle_one{
   left: 8%;
   top: 24%;
@@ -666,9 +712,6 @@ ul li ul li {
   }
 }
 
-
-
-
 .glove{
   display: flex;
   align-items: center;
@@ -695,7 +738,6 @@ ul li ul li {
   border-color: var(--color-blanco) transparent;
 	filter: drop-shadow(0.2em 0.1em 0.1rem rgba(0, 0, 0, 0.05));
 }
-
 
 @media (max-width: 1920px){
   .circle_one{
@@ -1058,8 +1100,8 @@ ul li ul li {
   .glove {
     top: -39%;
     left: -9%;
-}
-.circle_one {
+  }
+  .circle_one {
   left: -25%;
   top: 9%;
   }
@@ -1081,11 +1123,11 @@ ul li ul li {
   .contact_right{
     min-height: 23em;
     padding-top: 4em;
-}
+  }
   .glove {
     top: -52%;
     left: -28%;
-}
+  }
   .circle_one {
     left: -20%;
     top: 10%;
@@ -1101,14 +1143,14 @@ ul li ul li {
   .circle_four {
     left: 94%;
     top: 73%;
-}
+  }
 }
 
 @media (max-width: 285px){
   .glove {
     top: -52%;
     left: -30%;
-}
+  }
   .circle_one {
     left: -29%;
     top: 4%;
@@ -1124,15 +1166,11 @@ ul li ul li {
   .circle_four {
     left: 93%;
     top: 73%;
+  }
 }
-}
-
-
 
 /* Termina contact */
-
 /* EMPIEZA EL FOOTER */
-
 
 footer {
   background-color: var(--color-azulmain);
@@ -1158,10 +1196,6 @@ footer .name {
   }
 }
 
-
-
-
-
 footer .email {
   color: var(--color-blanco);
   justify-content: flex-end;
@@ -1175,5 +1209,3 @@ footer .email {
 }
 
 /* TERMINAMOS EL FOOTER */
-
-
