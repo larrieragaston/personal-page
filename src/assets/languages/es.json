@@ -13,7 +13,9 @@
 	},
 	"about-section": {
 		"subtitle": "Desarrollador JS FullStack - Docente",
-		"description": "Soy un profesional entusiasta, con mucha experiencia en el rubro de IT, lleno de ganas de aprender y seguir creciendo. Me atraen mucho los proyectos desafiantes y me encanta involucrarme en todos los desarrollos de punta a punta, aportando ideas creativas que satisfagan las necesidades de todos los stakeholders.",
+		"description1": "Hola a todos, mi nombre es Gaston y soy un apasionado profesional de TI con más de seis años de experiencia en el campo de la ingeniería de software. Mis habilidades incluyen Javascript, particularmente Node, React, MongoDB y AWS. También soy profesor en la universidad, donde enseño y trato de inspirar a la próxima generación de profesionales de TI.",
+		"description2": "A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversos proyectos, desde salud y aprendizaje hasta seguros. Siempre estoy motivado por proyectos desafiantes que requieren pensamiento creativo y habilidades para resolver problemas. Me enorgullece estar involucrado en todos los aspectos del desarrollo, desde la ideación hasta la entrega, y estoy comprometido a contribuir con ideas que satisfagan las necesidades de todas las partes interesadas.",
+		"description3": "Como alguien que siempre está ansioso por aprender y crecer, estoy entusiasmado con el futuro del campo de IT y espero explorar nuevas oportunidades y tecnologías. Gracias por su atención, y estoy feliz de responder cualquier pregunta que pueda tener.",
 		"make_contact": "Contactarme"
 	},
 	"knowledege-section": {
@@ -23,11 +25,11 @@
 		"title": "Experiencia Laboral",
 		"wxp1_place": "Gizmedic",
 		"wxp1_period": "Diciembre 2021 a la actualidad",
-		"wxp1_position": "Full-Stack Software Developer",
+		"wxp1_position": "Node | React Software Engineer",
 		"wxp1_description": "Diseño, desarrollo e implementación de nuevos features de sistemas existentes. Mantenimiento de API Rest, Web y App. Acompañamiento a otros desarrolladores. Lenguajes/Frameworks: JavaScript, React, React Native, NodeJs, Express, MongoDB, Vue, Heroku, AWS.",
 		"wxp2_place": "UTN INSPT",
 		"wxp2_period": "Agosto 2019 a la actualidad",
-		"wxp2_position": "Docente Programación III",
+		"wxp2_position": "Profesor - Programación III",
 		"wxp2_description": "Paradigma de programación funcional. Lenguajes/Frameworks: JS, React, Express, Nodejs, MongoDB, Clojure, FP.",
 		"wxp3_place": "Quares S.R.L.",
 		"wxp3_period": "Agosto 2021 - Diciembre 2021",
@@ -68,7 +70,22 @@
 		"std5_place": "Universidad Tecnológica Nacional (UTN)"
 	},
 	"courses-section": {
-		"title": "Cursos"
+		"title": "Cursos",
+		"std1_title": "Web Application Development full-stack with MEAN",
+		"std1_period": "Jun 2020",
+		"std1_place": "UTN - FRBA",
+		"std2_title": "Javascript Algorithms And Data Structures Certification",
+		"std2_period": "Oct 2019",
+		"std2_place": "freeCodeCamp",
+		"std3_title": "Responsive Web Design Certification",
+		"std3_period": "Feb 2019",
+		"std3_place": "freeCodeCamp",
+		"std4_title": "SQL Tuning",
+		"std4_period": "Sep 2019",
+		"std4_place": "EducacionIT",
+		"std5_title": "GNU/Linux Basic Operator",
+		"std5_period": "Nov 2014",
+		"std5_place": "CFP N34"
 	},
 	"contact-section": {
 		"title": "Contacto",

@@ -13,7 +13,12 @@ function AboutSection(props) {
 			<div className="main-about">
 				<h1>Gaston A. Larriera</h1>
 				<h2 className="subtitle">{t("subtitle")}</h2>
-				<p className="description">{t("description")}</p>
+				<p className="description">{t("description1")}</p>
+				<br />
+				<p className="description">{t("description2")}</p>
+				<br />
+				<p className="description">{t("description3")}</p>
+				<br />
 				<button
 					type="button"
 					onClick={() => navigateToContactSection()}
