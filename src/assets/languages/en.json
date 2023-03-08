@@ -12,7 +12,7 @@
 		"english": "English (ENG)"
 	},
 	"about-section": {
-		"subtitle": "FullStack JS Developer - Teacher",
+		"subtitle": "Senior Fullstack Software Engineer @Gizmedic | Professor @INSPT | React | Node | Javascript | MongoDB | AWS",
 		"description1": "Hello everyone, my name is Gaston and I'm a passionate IT professional with over six years of experience in the Software engineering field. My specialties include Javascript, particularly with Node, React, MongoDB, and AWS. I'm also an educator at the university, where I teach and inspire the next generation of IT professionals.",
 		"description2": "Throughout my career, I've had the opportunity to work on diverse projects, ranging from health and learning to insurance. I'm always motivated by challenging projects that require creative thinking and problem-solving skills. I take pride in being involved in all aspects of development, from ideation to delivery, and I'm committed to contributing ideas that fulfill the needs of all stakeholders.",
 		"description3": "As someone who is always eager to learn and grow, I'm excited about the future of the IT field and look forward to exploring new opportunities and technologies. Thank you for your attention, and I'm happy to answer any questions you may have.",
@@ -71,7 +71,7 @@
 	},
 	"courses-section": {
 		"title": "Courses",
-		"std1_title": "Desarrollo de aplicaciones web full stack con MEAN",
+		"std1_title": "Web Application Development full-stack with MEAN",
 		"std1_period": "Jun 2020",
 		"std1_place": "UTN - FRBA",
 		"std2_title": "Javascript Algorithms And Data Structures Certification",
@@ -83,7 +83,7 @@
 		"std4_title": "SQL Tuning",
 		"std4_period": "Sep 2019",
 		"std4_place": "EducacionIT",
-		"std5_title": "Operador Básico GNU/Linux",
+		"std5_title": "GNU/Linux Basic Operator",
 		"std5_period": "Nov 2014",
 		"std5_place": "CFP N34"
 	},
